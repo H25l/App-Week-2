@@ -43,7 +43,7 @@ void CompleteTask(int taskID) {
 
 //displayTask
 void displayTask() {
-for (var i = 0; i < tasks.length; i++) {
+for (var i = 0; i < tasks.length; i++) { 
   Task task = tasks[i];  
   print(
     "${task.taskID}. [${task.isCompleted ? 'X' : ' '}] ${task.taskName}: ${task.description}");
